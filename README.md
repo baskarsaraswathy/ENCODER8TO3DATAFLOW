@@ -55,9 +55,6 @@ assign b=din[2] | din[3] | din[6] | din[7];
 assign c=din[2] | din[4] | din[6] | din[7];
 endmodule
 
-Developed by: KARTHIKEYAN M
-RegisterNumber:212223110020
-
 ```
 Developed by:BASKAR J RegisterNumber:212223040025
 */
