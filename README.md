@@ -51,9 +51,7 @@ assign b= (din[2] | din[3] | din[6] | din[7]);
 assign c= (din[1] | din[3] | din[5] | din[7]);
 endmodule
 ```
-
 Program for logic gates and verify its truth table in quartus using Verilog programming.
-
 # Developed by : BASKAR J 
 # RegisterNumber : 212223040025
 
@@ -61,10 +59,8 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 ![image](https://github.com/baskarsaraswathy/ENCODER8TO3DATAFLOW/assets/144871005/e240f086-4f25-4f9d-835d-323a21e6e2c6)
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
-
 ![image](https://github.com/baskarsaraswathy/ENCODER8TO3DATAFLOW/assets/144871005/8e6515cc-093b-4e33-8f1e-a3b5f5baf417)
 
 **RESULTS**
-
 Thus, the implement Encoder 8 To 3 in Dataflow Modelling using verilog in Quartus software is successfully verified.
 
