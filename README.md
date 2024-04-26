@@ -1,4 +1,4 @@
-### ENCODER 8TO3 DATAFLOW Modelling
+# EXP 05-ENCODER 8TO3 DATAFLOW Modelling
 
 **AIM:**
 
@@ -40,10 +40,8 @@ Figure 02  Encoder 8 * 3
 3.Generate the RTL schematic and save the logic diagram.
 4.Create nodes for inputs and outputs to generate the timing diagram.
 5.For different input combinations generate the timing diagram.
-/* write all the steps invloved */
 
-**PROGRAM**
-/* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
+**PROGRAM** 
 ```
 module san05(din, a, b, c); 
 input [0:7] din; 
@@ -53,8 +51,11 @@ assign b= (din[2] | din[3] | din[6] | din[7]);
 assign c= (din[1] | din[3] | din[5] | din[7]);
 endmodule
 ```
-Developed by:BASKAR J RegisterNumber:212223040025
-*/
+
+Program for logic gates and verify its truth table in quartus using Verilog programming.
+
+# Developed by : BASKAR J 
+# RegisterNumber : 212223040025
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 ![image](https://github.com/baskarsaraswathy/ENCODER8TO3DATAFLOW/assets/144871005/e240f086-4f25-4f9d-835d-323a21e6e2c6)
